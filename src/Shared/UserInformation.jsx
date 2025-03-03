@@ -123,7 +123,7 @@ const UserInformation = () => {
                                                 setLanguage(newLanguage);
                                             }} className={`p-0.5 cursor-pointer transition text-black dark:text-white    hover:text-main hover:bg-gray-50 dark:hover:bg-[#696969] py-.5 px-1.5 rounded-[4px]`}>{t('العربيه')}</li>
                                             <li onClick={toggleMode}
-                                                className={`p-0.5 cursor-pointer transition text-black dark:text-white  hover:text-main hover:bg-gray-50 dark:hover:bg-[#696969] py-.5 px-1.5 rounded-[4px]`}>{t(isDarkMode ? 'Dark Mode' : 'Light Mode')}</li>
+                                                className={`p-0.5 cursor-pointer transition text-black dark:text-white  hover:text-main hover:bg-gray-50 dark:hover:bg-[#696969] py-.5 px-1.5 rounded-[4px]`}>{t(isDarkMode ? 'Light Mode' : 'Dark Mode')}</li>
                                             <li className={`p-0.5 cursor-pointer transition text-black dark:text-white  hover:text-main hover:bg-gray-50 dark:hover:bg-[#696969] py-.5 px-1.5 rounded-[4px]`} onClick={() => setIsEdit(true)}>{t('Edit')}</li>
                                             <li onClick={() => {
                                                 localStorage.removeItem("userId");
